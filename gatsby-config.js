@@ -11,8 +11,10 @@ module.exports = {
       twitter: `kylemathews`,
     },
   },
-  plugins: [`gatsby-plugin-netlify-cms`],
   plugins: [
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
